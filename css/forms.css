@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+.form-container{
+    /* width: 80%; */
+    margin: 15px auto 5rem auto;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr; */
+    gap: 15px;
+}
+
+#forms{
+    font-family:Lato,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    padding: 20px;
+    /* margin: 10px; */
+    border-radius: 10px;
+    border: 1px solid grey;
+    box-shadow: 3px 3px 5px 5px lightgrey;
+    gap:10px;
+    transition: transform 0.2s ease-in-out;
+}
+
+#forms:hover{
+    transform: scale(1.04);
+    box-shadow: 2px 2px 2px 3px blue;
+}
+
+fieldset{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    width: 100%;
+    gap:10px;
+    font-family: inherit;
+    font-style: inherit;
+    font-weight: 300;
+}
+label{
+    font-family: inherit;
+    font-style: inherit;
+}
+input,select{
+    padding: 3px;
+    margin-left: 4px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    outline: none;
+    font-family: inherit;
+    font-style: inherit;
+}
+#btn{
+    padding: 5px;
+    width: 100%;
+    border-radius: 10px;
+    font-family: inherit;
+    font-style: inherit;
+}
+
+#btn:hover{
+    background-color: green;
+    cursor: pointer;
+    border: 1px solid transparent;
+    color: white;
+}
