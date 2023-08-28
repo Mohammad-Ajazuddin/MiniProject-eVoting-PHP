@@ -8,7 +8,7 @@ A simple project demonstrating eVoting system using php allows users to register
   <li>Start server and Mysql</li>
   <li>Open MySQL Admin (In browser-> localhost/phpmyadmin) and create a database named "evotingdb". Open it and import the sql file present in database schema folder.</li>
   <li>All the tables with primary key, foreign key constraints will be created.</li>
-  <li>In browser-> localhost/MiniProject-eVoting-PHP/index.php</li>
+  <li>In browser type-> localhost/MiniProject-eVoting-PHP-main/index.php</li>
 </ul>
 
-<p>As of now it is not responsive. Created a desktop version. <a href="https://evoting.free.nf" target="_blank">Experience it live!!!</a></p>
+<h3>As of now it is not responsive. Created a desktop version. <a href="https://evoting.free.nf" target="_blank">Experience it live!!!</a></h3>
