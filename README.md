@@ -6,8 +6,8 @@ A simple project demonstrating eVoting system using php allows users to register
 <ul>
   <li>Open Xammp control panel</li>
   <li>Start server and Mysql</li>
-  <li>Open MySQL Admin (In browser-> localhost/phpmyadmin) and create a database named evotingdb. Open it and import the sql file present in database schema folder.</li>
-  <li>All the tables with primary key, foreign key constarints will be created.</li>
+  <li>Open MySQL Admin (In browser-> localhost/phpmyadmin) and create a database named "evotingdb". Open it and import the sql file present in database schema folder.</li>
+  <li>All the tables with primary key, foreign key constraints will be created.</li>
   <li>In browser-> localhost/MiniProject-eVoting-PHP/index.php</li>
 </ul>
 
