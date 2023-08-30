@@ -1,5 +1,7 @@
 <?php
     session_start();
+    include ('../admin/check_session.php');
+    $_SESSION['last_active_time'] = time();
     include_once('header.php');
     echo '<title>Change Password</title>
         <div style="margin: 7rem auto; display:flex; justify-content:center; align-items:center; gap:30px;">
