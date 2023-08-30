@@ -108,6 +108,10 @@
                     {
                         echo '<div><h4 style="color:red; text-align:center; font-style:italic;">Successfully Logged Out!</h4></div>';
                     }
+                    if(isset($_GET['session_expired'])) {
+                        
+                        echo '<div style="padding-top:5px;"><h4 style="text-align:center; color:yellow;font-style:italic;">Session Expired!! Login again.</h4></div>';
+                    }
                     echo '<div class="col-lg-12 login-title">
                                 USER LOGIN
                             </div>
