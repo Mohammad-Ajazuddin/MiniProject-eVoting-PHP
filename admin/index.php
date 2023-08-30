@@ -1,5 +1,7 @@
 <?php
     session_start();
+    include ('check_session.php');
+    $_SESSION['last_active_time'] = time();
     if (isset($_SESSION['key'])) {
         if ($_SESSION['key'] != "admin") {
             header('location:../login_register.php');
