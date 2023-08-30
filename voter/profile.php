@@ -1,5 +1,7 @@
 <?php
     session_start();
+    include ('../admin/check_session.php');
+    $_SESSION['last_active_time'] = time();
     include("header.php");
     echo '
         <style>
