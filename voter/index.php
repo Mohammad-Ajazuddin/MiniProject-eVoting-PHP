@@ -1,6 +1,8 @@
 <?php
     session_start();
-    $_SESSION['electionid'];
+    include ('../admin/check_session.php');
+    $_SESSION['last_active_time'] = time();
+    //$_SESSION['electionid'];
     if (isset($_SESSION['key'])) {
         if ($_SESSION['key'] != "voter") {
             header('location:../login_register.php');
